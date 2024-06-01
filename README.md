@@ -1,1 +1,4 @@
 # Banking_Management_System
+The provided code is a simple Java program implementing a Banking Management System using JDBC (Java Database Connectivity). It allows various operations like displaying customer records, adding, deleting, and updating customer information, viewing account and loan details, depositing and withdrawing money from accounts.
+
+The program establishes a connection to an Oracle database, interacts with it through SQL queries executed using JDBC's Statement object. User input is handled through Scanner. The code follows a modular structure, with each operation encapsulated in separate methods for clarity and maintainability. Exception handling is included to manage potential errors during database operations. Overall, it provides a basic framework for managing banking operations through a command-line interface.
